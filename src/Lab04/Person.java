@@ -38,7 +38,9 @@ public class Person {
     @Override
     public String toString() {
         StringBuilder response = new StringBuilder();
-
+        response.append("Name: "+getName());
+        response.append("Age: "+getAge());
+        response.append("Gender: "+getGender());
         return response.toString();
     }
 }
