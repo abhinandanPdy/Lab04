@@ -34,4 +34,9 @@ public class Person {
         this.name = name;
         this.gender = gender;
     }
+
+    @Override
+    public String toString(){
+
+    }
 }
